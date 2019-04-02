@@ -1,0 +1,106 @@
+
+/* Big tablet to 1200px: from 1024 to 1200px */
+@media only screen and (max-width: 1200px) {
+    .main_nav { padding: .5% 3%; }
+    .skills { width: 100%; }
+    .aboutMe { 
+        padding: 0 3%;
+        width: 100%; 
+    }
+}
+
+
+/* Small tablet to big tablet: from 768 to 1023px */
+@media only screen and (max-width: 1023px) {
+    
+    body { font-size: 18px; }
+
+    .aboutMe { 
+        font-size: 90%; 
+        letter-spacing: 1px;
+    }
+    .about__img img {
+        height: 125px;
+        width: 125px;
+    }
+
+    .project { width: 700px; }
+    .project__img img { width: 250px; }
+
+    .skills__list ul { padding: 0% 5%; }
+}
+
+
+
+/* Small phones to Small tablets: from 481 to 767px */
+@media only screen and (max-width: 767px) {
+
+    .main_nav { padding: 2% 5%; }
+    .nav__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .nav__list li { margin: 6px 12px; }
+
+    .logo ion-icon { display: none; }
+
+    .skills { 
+        align-items: center;
+        flex-direction: column; 
+    }
+    .skills__template--1,
+    .skills__template--2,
+    .skills__template--3 { margin-bottom: 25px; }
+    .still__learning { margin-top: 30px; }
+
+    .project { 
+        align-items: center;
+        flex-direction: column; 
+    }
+    .project img {      
+        width: 300px;
+        margin-bottom: 10px; 
+    }
+    .project__description {
+        word-spacing: 2px; 
+        line-height: 27px; 
+    }
+    .project__img p {
+        font-size: 110%; 
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    .project__description ul { margin-top: 12px; }
+
+    h2 { margin-bottom: 35px; }
+
+    .aboutMe { flex-direction: column; }
+
+    .about__img { margin-bottom: 15px; }
+
+}
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    h2 { margin-top: 10px; }
+    body {
+        font-size: 17px;
+    }
+
+    .nav__list {
+        max-width: 200px;
+    }
+
+    .project__description p { 
+        margin-top: 25px;
+        padding: 0 5%; 
+    }
+    .project__description ul { 
+        padding: 0 5%; 
+    }
+
+
+}

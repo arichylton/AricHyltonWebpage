@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <link href="pics/ionicons.min.css" type="text/css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/tooltipster.bundle.min.css">  
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css"> 
+        <link rel="icon" href="pics/icon.jpg">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,400i,500" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <title>practice page</title>
+
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <div class="main_nav">
+                    <div>
+                        <div class="logo">
+                            <a href="#" class="logo_name grow tooltip" data-tooltip-content="#tooltip_home">AH</a>
+                            <ion-icon class="planet" name="planet"></ion-icon>
+                        </div>
+                        
+                    </div>           
+                    <ul class="nav__list">             
+                        <li class="grow"><a href="#projects">projects</a></li>
+                        <li class="grow"><a href="#skills">skills</a></li>
+                        <li class="grow"><a href="#aboutMe">about me<i class="icon ion-md-heart"></i></a></li>
+                        <li class="grow"><a href="#contact">contact</a></li>
+                    </ul>
+                </div>
+                
+                
+                             
+            </nav>
+            <div class="main__heading">   
+                <div class="heading__info">
+                    <div>
+                        <h1 class="animated fadeIn">aric hylton</h1>
+                    </div>
+                    <div class="img__links js--heading">
+                        <a class="grow tooltip" data-tooltip-content="#tooltip_GitHub" href="https://github.com/Infinish?tab=repositories" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                        <a class="grow tooltip" data-tooltip-content="#tooltip_linkedin"  href="https://www.linkedin.com/in/aric-hylton-8a3394177/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                        <a class="grow tooltip" data-tooltip-content="#tooltip_resume"  href="#" target="_blank"><ion-icon name="document"></ion-icon></a>
+                    </div>
+                </div>   
+            </div>
+            
+            <div class="tooltip_templates">
+
+                <span id="tooltip_home">
+                    <strong>Go To Top</strong>
+                </span>
+                <span id="tooltip_GitHub">
+                    <strong>My GitHub</strong>
+                </span>
+                <span id="tooltip_linkedin">
+                    <strong>My Linkedin</strong>
+                </span>
+                <span id="tooltip_resume">
+                    <strong>My Resume</strong>
+                </span>
+
+            </div>
+        </header>
+
+        <section class="section__projects" id="projects">
+            <div>
+                <h2>Projects</h2>
+            </div>
+
+            <div class="projects__box row">
+                <div class="project">
+                    <div class="project__img">
+                        <p>Balloon Quest</p>
+                        <img src="pics/balloonQuest.gif" alt="balloon quest gif">
+                    </div>
+                    
+                    <div class="project__description">
+                        <p>Brought to the Google Play Store for Android devices using C# and Unity. I coded the gameplay, created all of the animations and images through Photoshop, and made the soundtrack.</p>
+                        <ul>                           
+                            <li>C#</li>
+                            <li>Unity</li>
+                            <li>Photoshop</li>
+                            <li style="background-color: rgb(51, 51, 51)" data-tooltip-content="#tooltip_googlePlayStore" class="project__link tooltip grow"><a href="https://play.google.com/store/apps/details?id=com.masterTapp.balloonQuest" target="_blank">Google Play Store</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div class="project__img">
+                        <p>Chat App<a style="color: #fff"  href="https://www.udemy.com/the-complete-nodejs-developer-course-2/" target="_blank"><br>(Andrew Mead's Node.js Course)</a></p>
+                        <img src="pics/chatApp.gif" alt="chat app gif">
+                    </div>
+                        
+                    <div class="project__description">
+                        <p>This project involved using Node.js and Socket.io to create a website where users can join specific rooms and chat with others. Also users can send their location through JavaScripts navigator object.</p>
+                        <ul>                           
+                            <li>JavaScript</li>
+                            <li>Node.js</li>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>VSC</li>
+                            <li style="background-color: rgb(51, 51, 51)" data-tooltip-content="#tooltip_GitHub__ChatApp" class="project__link tooltip grow"><a href="#">GitHub</a></li>
+                            <li style="background-color: rgb(51, 51, 51)" data-tooltip-content="#tooltip_Website__ChatApp" class="website__link tooltip grow"><a href="https://node-course-2-chatapp.herokuapp.com/" target="_blank">Website</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="tooltip_templates">
+                <span id="tooltip_googlePlayStore">
+                    <strong>Check out Balloon Quest</strong>
+                </span>
+                <span id="tooltip_GitHub__ChatApp">
+                    <strong>Code for ChatApp</strong>
+                </span>
+                <span id="tooltip_Website__ChatApp">
+                    <strong>Check out the Website</strong>
+                </span>   
+            </div>
+
+        </section>
+        
+        <section class="section__skills js--section-skills" id="skills">
+            <div>
+                <h2>skills</h2>
+            </div>
+                
+
+            <div class="skills row">
+                <div class="skills__template--1">
+                    <div>
+                        <h3 class="skills__title">Designer<ion-icon name="brush"></ion-icon></h3>
+                    </div>
+                    <div class="skills__list">
+                        <ul>                           
+                            <li>UI/UX design</li> 
+                            <li>Adobe Photoshop</li>
+                            <li>Adobe Lightroom</li>                            
+                            <li>Fruity Loops Studio</li>                            
+                            <li>Bosca Ceoil</li>                            
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="skills__template--2">
+                    <div>
+                        <h3 class="skills__title">Developer<ion-icon name="code"></ion-icon></h3>
+                    </div>
+                    <div class="skills__list">
+                        <ul>
+                            <li>JavaScript<ion-icon name="logo-javascript"></ion-icon></li>
+                            <li>Node.js<ion-icon name="logo-nodejs"></ion-icon></li>
+                            <li>HTML5<ion-icon name="logo-html5"></ion-icon></li>
+                            <li>CSS3<ion-icon name="logo-css3"></ion-icon></li>
+                            <li>Jquery<img src="pics/jquery.png" alt="jquery pic"></li>
+                            <li>Windows<ion-icon name="logo-windows"></ion-icon></li>
+                            <li>Android<ion-icon name="logo-android"></ion-icon></li>
+                                          
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="skills__template--3">
+                    <div>
+                        <h3 class="skills__title">Tools<ion-icon name="construct"></ion-icon></h3>
+                    </div>
+                    <div class="skills__list">
+                        <ul>
+                            <li>Git<img src="pics/git.png" alt="git pic"></li>
+                            <li>GitHub<ion-icon name="logo-github"></ion-icon></li>
+                            <li>Visual Studio<img src="pics/vscode-icon.svg" alt="vsc pic"></li>
+                            <li>Microsoft Office<img src="pics/MSO.png" alt="Microsoft Office pic"></li>
+                            <li>Chrome DevTools<ion-icon name="logo-chrome"></ion-icon></li> 
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="still__learning row">
+                    <div>
+                        <h3 class="skills__title">Still Learning<ion-icon name="book"></ion-icon></h3>
+                    </div>
+                    <div class="still__learning--skills">
+                        <ul>
+                            <li>React</li>
+                            <li>Angular</li>
+                            <li>C#</li>
+                            <li>.NET</li>
+                            <li>NoSQL</li>
+                            <li>MongoDB</li>
+                        </ul> 
+                    </div>
+                </div>
+            
+        </section>
+
+        <section class="section__aboutMe" id="aboutMe">
+            <div>
+                <h2>About Me</h2>
+            </div>
+
+            <div class="aboutMe">
+                <div class="about__img">
+                    <img src="pics/pic1.jpg" alt="author pic">
+                </div>
+                <div class="about__description">
+                    <p>
+                        My name is <span style="color: rgb(16, 234, 250)">Aric Hylton</span> I have been working with computers my entire life. One day me and my brother decided to make a mobile app called <span style="color: rgb(16, 234, 250)"><i>Balloon Quest</i></span>. The process of creating and developing the game from start to finish has made me realize how much I enjoyed coding. Since the games release, becoming a better developer has been my main focus. 
+                    </p>
+                    <p>
+                        My main experience is with <span style="color: rgb(16, 234, 250)">JavaScript, HTML, CSS, and Node.js</span>. I'm constantly keeping up to date with new documentation and enhancing my knowledge of current programming concepts. 
+                    </p>
+                    <p>
+                        A few of my other hobbies are powerlifting, rock-climbing, and pretty much anything outdoors. I like seeing a goal, mapping out the process of getting to the end, and then tackling each problem along the way. 
+                    </p>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section class="section__contact" id="contact">
+            <div>
+                <h2 style="margin-bottom: 60px">Get In Touch</h2>
+            </div>
+
+            <div class="contact">
+
+                <p>Aric Hylton</p>
+                <p class="grow"><a style="background-color: #fff; border-radius: 20px; padding: 7px 15px;" class="tooltip" data-tooltip-content="#tooltip_email" href="mailto:arich212@gmail.com" target="_top">Arich212@gmail.com</a></p>
+                <p>(405) 503-1429</p>
+                
+            </div>
+
+            <div class="tooltip_templates">
+                <span id="tooltip_email">
+                    <strong>Email Me!</strong>
+                </span>
+                <span id="tooltip_thisPage">
+                    <strong>Code for this webpage</strong>
+                </span>    
+            </div>
+
+        </section>
+
+        <footer>
+            <div class="footer-nav">
+                <p>
+                    Made with <ion-icon name="heart"></ion-icon> by Aric Hylton &copy; 2019
+                <p>
+                <p class="tooltip grow" data-tooltip-content="#tooltip_thisPage" >
+                    <a href="#">( source )</a>
+                </p>
+                <ul class="footer__links">
+                    <li><a class="grow tooltip" data-tooltip-content="#tooltip_GitHub" href="https://github.com/Infinish?tab=repositories" target="_blank"><ion-icon name="logo-github"></ion-icon></a></li>
+                    <li><a class="grow tooltip" data-tooltip-content="#tooltip_linkedin"  href="https://www.linkedin.com/in/aric-hylton-8a3394177/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                    <li><a class="grow tooltip" data-tooltip-content="#tooltip_resume"  href="#" target="_blank"><ion-icon name="document"></ion-icon></a></li>
+                </ul>
+                
+            </div>  
+    
+        </footer>
+
+
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
+        <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+        <script src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+        <script src="resources/js/tooltipster.bundle.min.js"></script>
+        <script src="resources/js/jquery.waypoints.min.js"></script>
+        <script src="resources/js/jQuery.js"></script>
+        <script src="resources/js/webpage.js"></script>
+    </body>
+</html>
+
+
