@@ -14,4 +14,4 @@ app.use(express.static(clientPath));
 
 app.listen(port, () => {
     console.log(`Server is up on ${port}`);
-})
+});
