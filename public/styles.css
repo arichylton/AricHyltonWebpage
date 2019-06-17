@@ -70,7 +70,7 @@ h2:after {
 
 a:link,
 a:visited {
-    color: rgb(240, 0, 80);
+    color: rgb(255, 51, 0);
     text-decoration: none;
 }
 
@@ -660,14 +660,14 @@ footer {
 
 
 .footer-nav ion-icon {
-    color: rgba(255, 0, 0, 0.815);
+    color: rgb(255, 51, 0);
     margin: -3px 5px;
     vertical-align: center;
 }
 
 .footer-nav p a:link,
 .footer-nav p a:visited {
-    color: rgba(240, 0, 80, 0.596);
+    color: rgb(255, 51, 0);
 }
 
 .footer-nav ion-icon:hover {

@@ -16,6 +16,5 @@ $(document).ready(function() {
         theme: 'tooltipster-punk'
 
     });
-
 });
 
